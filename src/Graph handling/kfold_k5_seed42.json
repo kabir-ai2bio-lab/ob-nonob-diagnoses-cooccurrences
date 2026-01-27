@@ -1,0 +1,42 @@
+{
+  "k": 5,
+  "seed": 42,
+  "val_ratio_within_train": 0.15,
+  "negative_sampling_strategy": "balanced_deterministic_per_fold",
+  "timestamp": "2025-12-21T20:45:43.493500",
+  "pkl_path": "../preprocessed_data/pregnancy_graph_data.pkl",
+  "num_nodes": 279,
+  "num_edges_full": 5285,
+  "folds": [
+    {
+      "fold_id": 0,
+      "train_pos": 1,
+      "val_pos": 1,
+      "test_pos": 1
+    },
+    {
+      "fold_id": 1,
+      "train_pos": 1,
+      "val_pos": 1,
+      "test_pos": 1
+    },
+    {
+      "fold_id": 2,
+      "train_pos": 1,
+      "val_pos": 1,
+      "test_pos": 1
+    },
+    {
+      "fold_id": 3,
+      "train_pos": 1,
+      "val_pos": 1,
+      "test_pos": 1
+    },
+    {
+      "fold_id": 4,
+      "train_pos": 1,
+      "val_pos": 1,
+      "test_pos": 1
+    }
+  ]
+}

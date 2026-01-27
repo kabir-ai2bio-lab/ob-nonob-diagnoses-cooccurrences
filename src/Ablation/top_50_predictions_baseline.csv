@@ -1,0 +1,51 @@
+source_name,target_name,mean_prob,std_prob,num_folds,ranking_score,source_obstetric,target_obstetric,edge_type,source_idx,target_idx
+Single live birth,High risk pregnancy,0.9999899864196777,0.0,1,0.6931402396749776,False,True,Cross-Community,74,131
+Single live birth,Finding related to pregnancy,0.9999885559082031,0.0,1,0.6931392481199822,False,True,Cross-Community,74,247
+Single live birth,Third trimester pregnancy,0.9999881982803345,0.0,1,0.6931390002312333,False,True,Cross-Community,74,137
+Single live birth,Complication occurring during pregnancy,0.9999696016311646,0.0,1,0.6931261100162934,False,True,Cross-Community,74,185
+Hypothyroidism,Disorder of pregnancy,0.9999533891677856,0.0,1,0.6931148723930124,False,True,Cross-Community,7,216
+High risk pregnancy,Elderly primigravida,0.9999366998672485,0.0,1,0.6931033042513995,True,False,Cross-Community,131,225
+Suspected fetal abnormality affecting management of mother,High risk pregnancy,0.9999344348907471,0.0,1,0.6931017342893235,False,True,Cross-Community,63,131
+Single live birth,"Endocrine, nutritional and metabolic disease complicating pregnancy, childbirth and puerperium",0.9999339580535889,0.0,1,0.6931014037709917,False,True,Cross-Community,74,99
+Hypothyroidism,Third trimester pregnancy,0.9999140501022339,0.0,1,0.6930876046306393,False,True,Cross-Community,7,137
+Hypothyroidism,Second trimester pregnancy,0.999889612197876,0.0,1,0.6930706655661348,False,True,Cross-Community,7,140
+Elderly primigravida,Finding related to pregnancy,0.9998658895492554,0.0,1,0.693054222279128,False,True,Cross-Community,225,247
+Uterine leiomyoma,"Disease of the digestive system complicating pregnancy, childbirth and/or the puerperium",0.999855637550354,0.0,1,0.6930471161349945,False,True,Cross-Community,23,98
+Suspected fetal abnormality affecting management of mother,Third trimester pregnancy,0.9998359680175781,0.0,1,0.6930334822538079,False,True,Cross-Community,63,137
+Essential hypertension,High risk pregnancy,0.9998282194137573,0.0,1,0.6930281113309162,False,True,Cross-Community,58,131
+Single live birth,Complication occurring during labor and delivery,0.9998260140419006,0.0,1,0.6930265826836317,False,True,Cross-Community,74,224
+High risk pregnancy,Anemia,0.999808132648468,0.0,1,0.6930141882461894,True,False,Cross-Community,131,217
+Single live birth,Maternal AND/OR fetal condition affecting labor AND/OR delivery,0.9997672438621521,0.0,1,0.692985846299238,False,True,Cross-Community,74,249
+Essential hypertension,"Complication of pregnancy, childbirth and/or puerperium",0.9997652173042297,0.0,1,0.6929844415963279,False,True,Cross-Community,58,195
+Third trimester pregnancy,Elderly primigravida,0.9997190833091736,0.0,1,0.6929524639477267,True,False,Cross-Community,137,225
+High risk pregnancy,Abnormal findings on antenatal screening of mother,0.9997168183326721,0.0,1,0.6929508939856507,True,False,Cross-Community,131,207
+Hypothyroidism,"Endocrine, nutritional and metabolic disease complicating pregnancy, childbirth and puerperium",0.9997158646583557,0.0,1,0.6929502329489872,False,True,Cross-Community,7,99
+Single live birth,"Complication of pregnancy, childbirth and/or puerperium",0.9996956586837769,0.0,1,0.6929362272346773,False,True,Cross-Community,74,195
+Single live birth,Disorder of pregnancy,0.9996922016143799,0.0,1,0.6929338309767717,False,True,Cross-Community,74,216
+Hypothyroidism,Finding related to pregnancy,0.9996656179428101,0.0,1,0.6929154045797743,False,True,Cross-Community,7,247
+Hypothyroidism,"Disease of the digestive system complicating pregnancy, childbirth and/or the puerperium",0.9996446371078491,0.0,1,0.6929008617731752,False,True,Cross-Community,7,98
+Hypothyroidism,"Complication of pregnancy, childbirth and/or puerperium",0.9996337890625,0.0,1,0.692893342481127,False,True,Cross-Community,7,195
+Single live birth,Second trimester pregnancy,0.9996191263198853,0.0,1,0.6928831790424242,False,True,Cross-Community,74,140
+Hypothyroidism,High risk pregnancy,0.9996079802513123,0.0,1,0.6928754531764185,False,True,Cross-Community,7,131
+Type 2 diabetes mellitus without complication,Finding related to pregnancy,0.9995936751365662,0.0,1,0.6928655376264647,False,True,Cross-Community,134,247
+Disorder of pregnancy,Elderly primigravida,0.9995728135108948,0.0,1,0.6928510774494487,True,False,Cross-Community,216,225
+Third trimester pregnancy,Anemia,0.9995567202568054,0.0,1,0.6928399224557507,True,False,Cross-Community,137,217
+Abnormal findings on antenatal screening of mother,Disorder of pregnancy,0.9995500445365906,0.0,1,0.6928352951991055,False,True,Cross-Community,207,216
+Abnormal findings on antenatal screening of mother,Finding related to pregnancy,0.9995294809341431,0.0,1,0.6928210415960468,False,True,Cross-Community,207,247
+Type 2 diabetes mellitus without complication,Third trimester pregnancy,0.9995160102844238,0.0,1,0.6928117044531736,False,True,Cross-Community,134,137
+Type 2 diabetes mellitus without complication,Second trimester pregnancy,0.999498724937439,0.0,1,0.6927997231636461,False,True,Cross-Community,134,140
+Hypothyroidism,First trimester pregnancy,0.999466598033905,0.0,1,0.6927774544910414,False,True,Cross-Community,7,138
+Acute renal failure syndrome,High risk pregnancy,0.999437153339386,0.0,1,0.6927570449840531,False,True,Cross-Community,25,131
+Hemangioma of intra-abdominal structure,High risk pregnancy,0.9993720650672913,0.0,1,0.6927119292317632,False,True,Cross-Community,24,131
+Second trimester pregnancy,Elderly primigravida,0.9993550181388855,0.0,1,0.6927001132014015,True,False,Cross-Community,140,225
+Hypothyroidism,Maternal AND/OR fetal condition affecting labor AND/OR delivery,0.9993208646774292,0.0,1,0.6926764398258867,False,True,Cross-Community,7,249
+Secondary uterine inertia,Finding related to pregnancy,0.9992696642875671,0.0,1,0.6926409504200102,False,True,Cross-Community,10,247
+Anemia,Maternal AND/OR fetal condition affecting labor AND/OR delivery,0.9992144107818604,0.0,1,0.6926026516083135,False,True,Cross-Community,217,249
+Uterine leiomyoma,Finding related to pregnancy,0.9992125034332275,0.0,1,0.6926013295349863,False,True,Cross-Community,23,247
+High risk pregnancy,Herpesvirus infection,0.9991719722747803,0.0,1,0.6925732354767837,True,False,Cross-Community,131,191
+Gastroesophageal reflux disease without esophagitis,Second trimester pregnancy,0.9990447163581848,0.0,1,0.692485028396986,False,True,Cross-Community,119,140
+Gastrointestinal complication,Third trimester pregnancy,0.9990299940109253,0.0,1,0.6924748236434919,False,True,Cross-Community,33,137
+Suspected fetal abnormality affecting management of mother,"Disease of the digestive system complicating pregnancy, childbirth and/or the puerperium",0.9990171194076538,0.0,1,0.6924658996485334,False,True,Cross-Community,63,98
+Uterine size for dates discrepancy,High risk pregnancy,0.9989526271820068,0.0,1,0.6924211970441582,False,True,Cross-Community,12,131
+Secondary diabetes mellitus,Finding related to pregnancy,0.9988874793052673,0.0,1,0.6923760399770768,False,True,Cross-Community,17,247
+Finding related to pregnancy,Poor fetal growth affecting management,0.9988827109336853,0.0,1,0.6923727347937588,True,False,Cross-Community,247,266

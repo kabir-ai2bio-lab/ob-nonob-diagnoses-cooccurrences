@@ -1,0 +1,8 @@
+{
+  "hidden_channels": 128,
+  "out_channels": 64,
+  "num_layers": 2,
+  "dropout": 0.5,
+  "lr": 0.005,
+  "weight_decay": 0.0005
+}

@@ -1,0 +1,740 @@
+{
+  "train": {
+    "top_20_positive": [
+      {
+        "source": 7,
+        "target": 247,
+        "prob": 0.9998096823692322,
+        "true_label": 1
+      },
+      {
+        "source": 7,
+        "target": 137,
+        "prob": 0.9997486472129822,
+        "true_label": 1
+      },
+      {
+        "source": 7,
+        "target": 140,
+        "prob": 0.9995830655097961,
+        "true_label": 1
+      },
+      {
+        "source": 23,
+        "target": 247,
+        "prob": 0.9995731711387634,
+        "true_label": 1
+      },
+      {
+        "source": 58,
+        "target": 131,
+        "prob": 0.9995192289352417,
+        "true_label": 1
+      },
+      {
+        "source": 23,
+        "target": 137,
+        "prob": 0.99937504529953,
+        "true_label": 1
+      },
+      {
+        "source": 74,
+        "target": 247,
+        "prob": 0.9993554949760437,
+        "true_label": 1
+      },
+      {
+        "source": 74,
+        "target": 137,
+        "prob": 0.9992637038230896,
+        "true_label": 1
+      },
+      {
+        "source": 7,
+        "target": 216,
+        "prob": 0.9992260932922363,
+        "true_label": 1
+      },
+      {
+        "source": 7,
+        "target": 195,
+        "prob": 0.9989168643951416,
+        "true_label": 1
+      },
+      {
+        "source": 74,
+        "target": 140,
+        "prob": 0.9988971948623657,
+        "true_label": 1
+      },
+      {
+        "source": 32,
+        "target": 247,
+        "prob": 0.9988369345664978,
+        "true_label": 1
+      },
+      {
+        "source": 32,
+        "target": 131,
+        "prob": 0.9988322854042053,
+        "true_label": 1
+      },
+      {
+        "source": 7,
+        "target": 138,
+        "prob": 0.9987902045249939,
+        "true_label": 1
+      },
+      {
+        "source": 7,
+        "target": 99,
+        "prob": 0.9986704587936401,
+        "true_label": 1
+      },
+      {
+        "source": 7,
+        "target": 249,
+        "prob": 0.9986347556114197,
+        "true_label": 1
+      },
+      {
+        "source": 58,
+        "target": 137,
+        "prob": 0.9985978007316589,
+        "true_label": 1
+      },
+      {
+        "source": 56,
+        "target": 131,
+        "prob": 0.9985930323600769,
+        "true_label": 1
+      },
+      {
+        "source": 23,
+        "target": 216,
+        "prob": 0.9983886480331421,
+        "true_label": 1
+      },
+      {
+        "source": 23,
+        "target": 185,
+        "prob": 0.9983322024345398,
+        "true_label": 1
+      }
+    ],
+    "top_20_negative": [
+      {
+        "source": 0,
+        "target": 28,
+        "prob": 0.0001492492010584101,
+        "true_label": 0
+      },
+      {
+        "source": 42,
+        "target": 88,
+        "prob": 0.0001786901120794937,
+        "true_label": 0
+      },
+      {
+        "source": 18,
+        "target": 64,
+        "prob": 0.00018114982231054455,
+        "true_label": 0
+      },
+      {
+        "source": 14,
+        "target": 70,
+        "prob": 0.00025249586906284094,
+        "true_label": 0
+      },
+      {
+        "source": 42,
+        "target": 104,
+        "prob": 0.0002734931476879865,
+        "true_label": 0
+      },
+      {
+        "source": 14,
+        "target": 54,
+        "prob": 0.0002936053497251123,
+        "true_label": 0
+      },
+      {
+        "source": 14,
+        "target": 105,
+        "prob": 0.00029641768196597695,
+        "true_label": 0
+      },
+      {
+        "source": 79,
+        "target": 95,
+        "prob": 0.00035172246862202883,
+        "true_label": 0
+      },
+      {
+        "source": 18,
+        "target": 94,
+        "prob": 0.0003567738167475909,
+        "true_label": 0
+      },
+      {
+        "source": 18,
+        "target": 178,
+        "prob": 0.00048329264973290265,
+        "true_label": 0
+      },
+      {
+        "source": 4,
+        "target": 94,
+        "prob": 0.0004955303156748414,
+        "true_label": 0
+      },
+      {
+        "source": 70,
+        "target": 231,
+        "prob": 0.0005413414910435677,
+        "true_label": 0
+      },
+      {
+        "source": 16,
+        "target": 259,
+        "prob": 0.0005478955572471023,
+        "true_label": 0
+      },
+      {
+        "source": 64,
+        "target": 70,
+        "prob": 0.00055676483316347,
+        "true_label": 0
+      },
+      {
+        "source": 44,
+        "target": 178,
+        "prob": 0.0005570461507886648,
+        "true_label": 0
+      },
+      {
+        "source": 70,
+        "target": 95,
+        "prob": 0.000574508449062705,
+        "true_label": 0
+      },
+      {
+        "source": 39,
+        "target": 103,
+        "prob": 0.0005911508342251182,
+        "true_label": 0
+      },
+      {
+        "source": 30,
+        "target": 54,
+        "prob": 0.0005968869081698358,
+        "true_label": 0
+      },
+      {
+        "source": 18,
+        "target": 104,
+        "prob": 0.0006147267413325608,
+        "true_label": 0
+      },
+      {
+        "source": 28,
+        "target": 33,
+        "prob": 0.0006372425705194473,
+        "true_label": 0
+      }
+    ]
+  },
+  "val": {
+    "top_20_positive": [
+      {
+        "source": 58,
+        "target": 247,
+        "prob": 0.9994677901268005,
+        "true_label": 1
+      },
+      {
+        "source": 74,
+        "target": 131,
+        "prob": 0.9993780851364136,
+        "true_label": 1
+      },
+      {
+        "source": 56,
+        "target": 247,
+        "prob": 0.998432457447052,
+        "true_label": 1
+      },
+      {
+        "source": 7,
+        "target": 21,
+        "prob": 0.9982730150222778,
+        "true_label": 1
+      },
+      {
+        "source": 74,
+        "target": 195,
+        "prob": 0.997502863407135,
+        "true_label": 1
+      },
+      {
+        "source": 63,
+        "target": 131,
+        "prob": 0.996656060218811,
+        "true_label": 1
+      },
+      {
+        "source": 47,
+        "target": 247,
+        "prob": 0.9953497052192688,
+        "true_label": 1
+      },
+      {
+        "source": 21,
+        "target": 58,
+        "prob": 0.9951024055480957,
+        "true_label": 1
+      },
+      {
+        "source": 7,
+        "target": 93,
+        "prob": 0.9947102069854736,
+        "true_label": 1
+      },
+      {
+        "source": 55,
+        "target": 247,
+        "prob": 0.9944995641708374,
+        "true_label": 1
+      },
+      {
+        "source": 33,
+        "target": 131,
+        "prob": 0.9936670660972595,
+        "true_label": 1
+      },
+      {
+        "source": 61,
+        "target": 131,
+        "prob": 0.9936509728431702,
+        "true_label": 1
+      },
+      {
+        "source": 8,
+        "target": 131,
+        "prob": 0.9930769205093384,
+        "true_label": 1
+      },
+      {
+        "source": 23,
+        "target": 98,
+        "prob": 0.9929169416427612,
+        "true_label": 1
+      },
+      {
+        "source": 58,
+        "target": 195,
+        "prob": 0.992837131023407,
+        "true_label": 1
+      },
+      {
+        "source": 8,
+        "target": 247,
+        "prob": 0.9924024343490601,
+        "true_label": 1
+      },
+      {
+        "source": 46,
+        "target": 137,
+        "prob": 0.9923340082168579,
+        "true_label": 1
+      },
+      {
+        "source": 7,
+        "target": 92,
+        "prob": 0.992229163646698,
+        "true_label": 1
+      },
+      {
+        "source": 131,
+        "target": 226,
+        "prob": 0.992070734500885,
+        "true_label": 1
+      },
+      {
+        "source": 49,
+        "target": 131,
+        "prob": 0.9918783903121948,
+        "true_label": 1
+      }
+    ],
+    "top_20_negative": [
+      {
+        "source": 42,
+        "target": 230,
+        "prob": 0.0001304662728216499,
+        "true_label": 0
+      },
+      {
+        "source": 30,
+        "target": 79,
+        "prob": 0.00017892845789901912,
+        "true_label": 0
+      },
+      {
+        "source": 24,
+        "target": 178,
+        "prob": 0.000294812343781814,
+        "true_label": 0
+      },
+      {
+        "source": 79,
+        "target": 104,
+        "prob": 0.0004126078565604985,
+        "true_label": 0
+      },
+      {
+        "source": 0,
+        "target": 259,
+        "prob": 0.00041997243533842266,
+        "true_label": 0
+      },
+      {
+        "source": 16,
+        "target": 260,
+        "prob": 0.0005881200777366757,
+        "true_label": 0
+      },
+      {
+        "source": 61,
+        "target": 88,
+        "prob": 0.000734741217456758,
+        "true_label": 0
+      },
+      {
+        "source": 33,
+        "target": 230,
+        "prob": 0.000983238103799522,
+        "true_label": 0
+      },
+      {
+        "source": 36,
+        "target": 230,
+        "prob": 0.001003688434138894,
+        "true_label": 0
+      },
+      {
+        "source": 47,
+        "target": 230,
+        "prob": 0.0010944688692688942,
+        "true_label": 0
+      },
+      {
+        "source": 24,
+        "target": 95,
+        "prob": 0.0014844347024336457,
+        "true_label": 0
+      },
+      {
+        "source": 39,
+        "target": 198,
+        "prob": 0.002235719235613942,
+        "true_label": 0
+      },
+      {
+        "source": 19,
+        "target": 53,
+        "prob": 0.002412715693935752,
+        "true_label": 0
+      },
+      {
+        "source": 17,
+        "target": 95,
+        "prob": 0.0026054915506392717,
+        "true_label": 0
+      },
+      {
+        "source": 2,
+        "target": 198,
+        "prob": 0.002662060782313347,
+        "true_label": 0
+      },
+      {
+        "source": 259,
+        "target": 270,
+        "prob": 0.0028307847678661346,
+        "true_label": 0
+      },
+      {
+        "source": 39,
+        "target": 152,
+        "prob": 0.002960359212011099,
+        "true_label": 0
+      },
+      {
+        "source": 51,
+        "target": 53,
+        "prob": 0.0033709430135786533,
+        "true_label": 1
+      },
+      {
+        "source": 84,
+        "target": 219,
+        "prob": 0.003421822562813759,
+        "true_label": 0
+      },
+      {
+        "source": 2,
+        "target": 95,
+        "prob": 0.00381881813518703,
+        "true_label": 0
+      }
+    ]
+  },
+  "test": {
+    "top_20_positive": [
+      {
+        "source": 7,
+        "target": 131,
+        "prob": 0.9998193383216858,
+        "true_label": 1
+      },
+      {
+        "source": 23,
+        "target": 131,
+        "prob": 0.9995620846748352,
+        "true_label": 1
+      },
+      {
+        "source": 7,
+        "target": 185,
+        "prob": 0.9990721940994263,
+        "true_label": 1
+      },
+      {
+        "source": 23,
+        "target": 140,
+        "prob": 0.9990425705909729,
+        "true_label": 1
+      },
+      {
+        "source": 23,
+        "target": 195,
+        "prob": 0.9975413084030151,
+        "true_label": 1
+      },
+      {
+        "source": 74,
+        "target": 138,
+        "prob": 0.9975035786628723,
+        "true_label": 0
+      },
+      {
+        "source": 48,
+        "target": 247,
+        "prob": 0.9972604513168335,
+        "true_label": 1
+      },
+      {
+        "source": 27,
+        "target": 131,
+        "prob": 0.9972488284111023,
+        "true_label": 1
+      },
+      {
+        "source": 59,
+        "target": 247,
+        "prob": 0.9969635605812073,
+        "true_label": 1
+      },
+      {
+        "source": 32,
+        "target": 140,
+        "prob": 0.9956912398338318,
+        "true_label": 1
+      },
+      {
+        "source": 26,
+        "target": 131,
+        "prob": 0.9954602122306824,
+        "true_label": 1
+      },
+      {
+        "source": 63,
+        "target": 140,
+        "prob": 0.9952808022499084,
+        "true_label": 1
+      },
+      {
+        "source": 131,
+        "target": 266,
+        "prob": 0.9948757290840149,
+        "true_label": 1
+      },
+      {
+        "source": 74,
+        "target": 93,
+        "prob": 0.9941977262496948,
+        "true_label": 1
+      },
+      {
+        "source": 58,
+        "target": 185,
+        "prob": 0.9941026568412781,
+        "true_label": 1
+      },
+      {
+        "source": 137,
+        "target": 266,
+        "prob": 0.9935958981513977,
+        "true_label": 1
+      },
+      {
+        "source": 119,
+        "target": 131,
+        "prob": 0.9934605360031128,
+        "true_label": 1
+      },
+      {
+        "source": 119,
+        "target": 247,
+        "prob": 0.9932618737220764,
+        "true_label": 1
+      },
+      {
+        "source": 72,
+        "target": 131,
+        "prob": 0.9932536482810974,
+        "true_label": 1
+      },
+      {
+        "source": 45,
+        "target": 131,
+        "prob": 0.9931681156158447,
+        "true_label": 1
+      }
+    ],
+    "top_20_negative": [
+      {
+        "source": 42,
+        "target": 103,
+        "prob": 0.000153214146848768,
+        "true_label": 0
+      },
+      {
+        "source": 42,
+        "target": 94,
+        "prob": 0.00016307021724060178,
+        "true_label": 0
+      },
+      {
+        "source": 16,
+        "target": 28,
+        "prob": 0.00016777202836237848,
+        "true_label": 0
+      },
+      {
+        "source": 42,
+        "target": 260,
+        "prob": 0.00019821786554530263,
+        "true_label": 0
+      },
+      {
+        "source": 14,
+        "target": 29,
+        "prob": 0.0003481812891550362,
+        "true_label": 0
+      },
+      {
+        "source": 94,
+        "target": 97,
+        "prob": 0.0005749149131588638,
+        "true_label": 0
+      },
+      {
+        "source": 107,
+        "target": 178,
+        "prob": 0.0007177859079092741,
+        "true_label": 0
+      },
+      {
+        "source": 83,
+        "target": 94,
+        "prob": 0.0007650808547623456,
+        "true_label": 0
+      },
+      {
+        "source": 45,
+        "target": 178,
+        "prob": 0.0007658707909286022,
+        "true_label": 0
+      },
+      {
+        "source": 44,
+        "target": 230,
+        "prob": 0.0008709667599759996,
+        "true_label": 0
+      },
+      {
+        "source": 28,
+        "target": 110,
+        "prob": 0.0010675209341570735,
+        "true_label": 0
+      },
+      {
+        "source": 41,
+        "target": 104,
+        "prob": 0.0011130445636808872,
+        "true_label": 0
+      },
+      {
+        "source": 25,
+        "target": 259,
+        "prob": 0.001157916383817792,
+        "true_label": 0
+      },
+      {
+        "source": 28,
+        "target": 219,
+        "prob": 0.0011849869042634964,
+        "true_label": 0
+      },
+      {
+        "source": 20,
+        "target": 95,
+        "prob": 0.0013421911280602217,
+        "true_label": 0
+      },
+      {
+        "source": 144,
+        "target": 230,
+        "prob": 0.0014082634588703513,
+        "true_label": 0
+      },
+      {
+        "source": 20,
+        "target": 53,
+        "prob": 0.001459623919799924,
+        "true_label": 0
+      },
+      {
+        "source": 18,
+        "target": 198,
+        "prob": 0.0014742595376446843,
+        "true_label": 0
+      },
+      {
+        "source": 260,
+        "target": 270,
+        "prob": 0.0015231560682877898,
+        "true_label": 0
+      },
+      {
+        "source": 18,
+        "target": 149,
+        "prob": 0.0015372582711279392,
+        "true_label": 0
+      }
+    ]
+  }
+}

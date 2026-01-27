@@ -1,0 +1,21 @@
+source_name,target_name,mean_prob,std_prob,source_obstetric,target_obstetric,edge_type,num_folds,source_idx,target_idx
+Single live birth,High risk pregnancy,0.9999899864196777,0.0,False,True,Cross-Community,1,74,131
+Single live birth,Finding related to pregnancy,0.9999885559082031,0.0,False,True,Cross-Community,1,74,247
+Single live birth,Third trimester pregnancy,0.9999881982803345,0.0,False,True,Cross-Community,1,74,137
+Single live birth,Complication occurring during pregnancy,0.9999696016311646,0.0,False,True,Cross-Community,1,74,185
+Hypothyroidism,Disorder of pregnancy,0.9999533891677856,0.0,False,True,Cross-Community,1,7,216
+High risk pregnancy,Elderly primigravida,0.9999366998672485,0.0,True,False,Cross-Community,1,131,225
+Suspected fetal abnormality affecting management of mother,High risk pregnancy,0.9999344348907471,0.0,False,True,Cross-Community,1,63,131
+Single live birth,"Endocrine, nutritional and metabolic disease complicating pregnancy, childbirth and puerperium",0.9999339580535889,0.0,False,True,Cross-Community,1,74,99
+Hypothyroidism,Third trimester pregnancy,0.9999140501022339,0.0,False,True,Cross-Community,1,7,137
+Hypothyroidism,Second trimester pregnancy,0.999889612197876,0.0,False,True,Cross-Community,1,7,140
+Elderly primigravida,Finding related to pregnancy,0.9998658895492554,0.0,False,True,Cross-Community,1,225,247
+Uterine leiomyoma,"Disease of the digestive system complicating pregnancy, childbirth and/or the puerperium",0.999855637550354,0.0,False,True,Cross-Community,1,23,98
+Suspected fetal abnormality affecting management of mother,Third trimester pregnancy,0.9998359680175781,0.0,False,True,Cross-Community,1,63,137
+Essential hypertension,High risk pregnancy,0.9998282194137573,0.0,False,True,Cross-Community,1,58,131
+Single live birth,Complication occurring during labor and delivery,0.9998260140419006,0.0,False,True,Cross-Community,1,74,224
+High risk pregnancy,Anemia,0.999808132648468,0.0,True,False,Cross-Community,1,131,217
+Single live birth,Maternal AND/OR fetal condition affecting labor AND/OR delivery,0.9997672438621521,0.0,False,True,Cross-Community,1,74,249
+Essential hypertension,"Complication of pregnancy, childbirth and/or puerperium",0.9997652173042297,0.0,False,True,Cross-Community,1,58,195
+Third trimester pregnancy,Elderly primigravida,0.9997190833091736,0.0,True,False,Cross-Community,1,137,225
+High risk pregnancy,Abnormal findings on antenatal screening of mother,0.9997168183326721,0.0,True,False,Cross-Community,1,131,207

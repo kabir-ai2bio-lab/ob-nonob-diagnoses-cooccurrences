@@ -1,0 +1,22 @@
+{
+  "seed": 42,
+  "ratios": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "counts": {
+    "train_pos": 1901,
+    "train_neg": 1901,
+    "val_pos": 407,
+    "val_neg": 407,
+    "test_pos": 409,
+    "test_neg": 409
+  },
+  "negative_sampling_strategy": "balanced_deterministic",
+  "timestamp": "2025-12-21T20:49:30.721401",
+  "pkl_path": "../preprocessed_data/pregnancy_graph_data.pkl",
+  "num_nodes": 279,
+  "num_edges_full": 5285,
+  "num_edges_mp": 4469
+}

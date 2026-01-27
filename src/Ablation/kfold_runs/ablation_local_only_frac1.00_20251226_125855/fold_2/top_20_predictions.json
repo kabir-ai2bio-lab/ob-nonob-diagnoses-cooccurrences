@@ -1,0 +1,740 @@
+{
+  "train": {
+    "top_20_positive": [
+      {
+        "source": 74,
+        "target": 137,
+        "prob": 1.0,
+        "true_label": 1
+      },
+      {
+        "source": 74,
+        "target": 247,
+        "prob": 1.0,
+        "true_label": 1
+      },
+      {
+        "source": 74,
+        "target": 140,
+        "prob": 0.9999997615814209,
+        "true_label": 1
+      },
+      {
+        "source": 74,
+        "target": 216,
+        "prob": 0.9999995231628418,
+        "true_label": 1
+      },
+      {
+        "source": 74,
+        "target": 185,
+        "prob": 0.9999995231628418,
+        "true_label": 1
+      },
+      {
+        "source": 74,
+        "target": 249,
+        "prob": 0.9999992847442627,
+        "true_label": 1
+      },
+      {
+        "source": 7,
+        "target": 137,
+        "prob": 0.9999979734420776,
+        "true_label": 1
+      },
+      {
+        "source": 7,
+        "target": 247,
+        "prob": 0.9999977350234985,
+        "true_label": 1
+      },
+      {
+        "source": 74,
+        "target": 99,
+        "prob": 0.9999973773956299,
+        "true_label": 1
+      },
+      {
+        "source": 74,
+        "target": 98,
+        "prob": 0.9999949932098389,
+        "true_label": 1
+      },
+      {
+        "source": 7,
+        "target": 140,
+        "prob": 0.9999911785125732,
+        "true_label": 1
+      },
+      {
+        "source": 63,
+        "target": 137,
+        "prob": 0.9999849796295166,
+        "true_label": 1
+      },
+      {
+        "source": 63,
+        "target": 247,
+        "prob": 0.9999841451644897,
+        "true_label": 1
+      },
+      {
+        "source": 7,
+        "target": 195,
+        "prob": 0.9999834299087524,
+        "true_label": 1
+      },
+      {
+        "source": 7,
+        "target": 216,
+        "prob": 0.9999823570251465,
+        "true_label": 1
+      },
+      {
+        "source": 7,
+        "target": 99,
+        "prob": 0.9999722242355347,
+        "true_label": 1
+      },
+      {
+        "source": 7,
+        "target": 249,
+        "prob": 0.9999710321426392,
+        "true_label": 1
+      },
+      {
+        "source": 7,
+        "target": 138,
+        "prob": 0.9999513626098633,
+        "true_label": 1
+      },
+      {
+        "source": 7,
+        "target": 98,
+        "prob": 0.999935507774353,
+        "true_label": 1
+      },
+      {
+        "source": 63,
+        "target": 216,
+        "prob": 0.9999268054962158,
+        "true_label": 1
+      }
+    ],
+    "top_20_negative": [
+      {
+        "source": 16,
+        "target": 123,
+        "prob": 0.15260139107704163,
+        "true_label": 0
+      },
+      {
+        "source": 97,
+        "target": 261,
+        "prob": 0.15928709506988525,
+        "true_label": 0
+      },
+      {
+        "source": 51,
+        "target": 123,
+        "prob": 0.1695406138896942,
+        "true_label": 0
+      },
+      {
+        "source": 42,
+        "target": 88,
+        "prob": 0.1753915548324585,
+        "true_label": 0
+      },
+      {
+        "source": 41,
+        "target": 244,
+        "prob": 0.17823071777820587,
+        "true_label": 0
+      },
+      {
+        "source": 2,
+        "target": 94,
+        "prob": 0.18105919659137726,
+        "true_label": 0
+      },
+      {
+        "source": 17,
+        "target": 253,
+        "prob": 0.18318329751491547,
+        "true_label": 0
+      },
+      {
+        "source": 72,
+        "target": 253,
+        "prob": 0.18447890877723694,
+        "true_label": 0
+      },
+      {
+        "source": 18,
+        "target": 94,
+        "prob": 0.18550002574920654,
+        "true_label": 0
+      },
+      {
+        "source": 2,
+        "target": 101,
+        "prob": 0.1907363086938858,
+        "true_label": 0
+      },
+      {
+        "source": 33,
+        "target": 244,
+        "prob": 0.19129596650600433,
+        "true_label": 0
+      },
+      {
+        "source": 68,
+        "target": 88,
+        "prob": 0.19261741638183594,
+        "true_label": 0
+      },
+      {
+        "source": 54,
+        "target": 253,
+        "prob": 0.19334059953689575,
+        "true_label": 0
+      },
+      {
+        "source": 116,
+        "target": 182,
+        "prob": 0.19345085322856903,
+        "true_label": 0
+      },
+      {
+        "source": 79,
+        "target": 253,
+        "prob": 0.19367332756519318,
+        "true_label": 0
+      },
+      {
+        "source": 18,
+        "target": 104,
+        "prob": 0.19834309816360474,
+        "true_label": 0
+      },
+      {
+        "source": 54,
+        "target": 104,
+        "prob": 0.19898098707199097,
+        "true_label": 0
+      },
+      {
+        "source": 1,
+        "target": 258,
+        "prob": 0.1998191773891449,
+        "true_label": 0
+      },
+      {
+        "source": 4,
+        "target": 251,
+        "prob": 0.20040103793144226,
+        "true_label": 0
+      },
+      {
+        "source": 16,
+        "target": 101,
+        "prob": 0.2011028528213501,
+        "true_label": 0
+      }
+    ]
+  },
+  "val": {
+    "top_20_positive": [
+      {
+        "source": 74,
+        "target": 131,
+        "prob": 1.0,
+        "true_label": 1
+      },
+      {
+        "source": 74,
+        "target": 195,
+        "prob": 0.9999995231628418,
+        "true_label": 1
+      },
+      {
+        "source": 63,
+        "target": 131,
+        "prob": 0.9999897480010986,
+        "true_label": 1
+      },
+      {
+        "source": 7,
+        "target": 93,
+        "prob": 0.9999687671661377,
+        "true_label": 1
+      },
+      {
+        "source": 63,
+        "target": 98,
+        "prob": 0.999768078327179,
+        "true_label": 1
+      },
+      {
+        "source": 23,
+        "target": 98,
+        "prob": 0.9990059733390808,
+        "true_label": 1
+      },
+      {
+        "source": 7,
+        "target": 21,
+        "prob": 0.9981556534767151,
+        "true_label": 1
+      },
+      {
+        "source": 58,
+        "target": 247,
+        "prob": 0.9969528913497925,
+        "true_label": 1
+      },
+      {
+        "source": 7,
+        "target": 224,
+        "prob": 0.9967426657676697,
+        "true_label": 1
+      },
+      {
+        "source": 33,
+        "target": 131,
+        "prob": 0.9960118532180786,
+        "true_label": 1
+      },
+      {
+        "source": 140,
+        "target": 266,
+        "prob": 0.9949846267700195,
+        "true_label": 1
+      },
+      {
+        "source": 7,
+        "target": 92,
+        "prob": 0.9944550395011902,
+        "true_label": 1
+      },
+      {
+        "source": 58,
+        "target": 195,
+        "prob": 0.9939702749252319,
+        "true_label": 1
+      },
+      {
+        "source": 131,
+        "target": 226,
+        "prob": 0.9889821410179138,
+        "true_label": 1
+      },
+      {
+        "source": 67,
+        "target": 74,
+        "prob": 0.9888055324554443,
+        "true_label": 1
+      },
+      {
+        "source": 99,
+        "target": 266,
+        "prob": 0.9884412288665771,
+        "true_label": 1
+      },
+      {
+        "source": 33,
+        "target": 140,
+        "prob": 0.9880667924880981,
+        "true_label": 1
+      },
+      {
+        "source": 63,
+        "target": 267,
+        "prob": 0.986261785030365,
+        "true_label": 1
+      },
+      {
+        "source": 140,
+        "target": 171,
+        "prob": 0.9854952096939087,
+        "true_label": 1
+      },
+      {
+        "source": 23,
+        "target": 224,
+        "prob": 0.9841734170913696,
+        "true_label": 1
+      }
+    ],
+    "top_20_negative": [
+      {
+        "source": 123,
+        "target": 127,
+        "prob": 0.16567160189151764,
+        "true_label": 0
+      },
+      {
+        "source": 4,
+        "target": 258,
+        "prob": 0.1875569373369217,
+        "true_label": 0
+      },
+      {
+        "source": 51,
+        "target": 101,
+        "prob": 0.18876348435878754,
+        "true_label": 0
+      },
+      {
+        "source": 111,
+        "target": 123,
+        "prob": 0.20347829163074493,
+        "true_label": 0
+      },
+      {
+        "source": 79,
+        "target": 104,
+        "prob": 0.2119913101196289,
+        "true_label": 0
+      },
+      {
+        "source": 1,
+        "target": 248,
+        "prob": 0.21669892966747284,
+        "true_label": 0
+      },
+      {
+        "source": 39,
+        "target": 84,
+        "prob": 0.23751892149448395,
+        "true_label": 0
+      },
+      {
+        "source": 2,
+        "target": 198,
+        "prob": 0.2746295928955078,
+        "true_label": 0
+      },
+      {
+        "source": 61,
+        "target": 88,
+        "prob": 0.28296881914138794,
+        "true_label": 0
+      },
+      {
+        "source": 68,
+        "target": 239,
+        "prob": 0.2838307321071625,
+        "true_label": 0
+      },
+      {
+        "source": 97,
+        "target": 117,
+        "prob": 0.2838945686817169,
+        "true_label": 0
+      },
+      {
+        "source": 16,
+        "target": 260,
+        "prob": 0.2885454595088959,
+        "true_label": 0
+      },
+      {
+        "source": 43,
+        "target": 100,
+        "prob": 0.29156479239463806,
+        "true_label": 0
+      },
+      {
+        "source": 13,
+        "target": 71,
+        "prob": 0.2950473129749298,
+        "true_label": 0
+      },
+      {
+        "source": 46,
+        "target": 248,
+        "prob": 0.30659225583076477,
+        "true_label": 0
+      },
+      {
+        "source": 81,
+        "target": 90,
+        "prob": 0.3089730143547058,
+        "true_label": 0
+      },
+      {
+        "source": 8,
+        "target": 94,
+        "prob": 0.3141654133796692,
+        "true_label": 0
+      },
+      {
+        "source": 160,
+        "target": 272,
+        "prob": 0.3193880021572113,
+        "true_label": 0
+      },
+      {
+        "source": 116,
+        "target": 121,
+        "prob": 0.32796338200569153,
+        "true_label": 0
+      },
+      {
+        "source": 19,
+        "target": 210,
+        "prob": 0.33031460642814636,
+        "true_label": 0
+      }
+    ]
+  },
+  "test": {
+    "top_20_positive": [
+      {
+        "source": 7,
+        "target": 131,
+        "prob": 0.9999988079071045,
+        "true_label": 1
+      },
+      {
+        "source": 74,
+        "target": 93,
+        "prob": 0.9999984502792358,
+        "true_label": 1
+      },
+      {
+        "source": 74,
+        "target": 138,
+        "prob": 0.9999980926513672,
+        "true_label": 0
+      },
+      {
+        "source": 7,
+        "target": 185,
+        "prob": 0.9999814033508301,
+        "true_label": 1
+      },
+      {
+        "source": 63,
+        "target": 140,
+        "prob": 0.9999544620513916,
+        "true_label": 1
+      },
+      {
+        "source": 63,
+        "target": 195,
+        "prob": 0.9999234676361084,
+        "true_label": 1
+      },
+      {
+        "source": 23,
+        "target": 131,
+        "prob": 0.9999107122421265,
+        "true_label": 1
+      },
+      {
+        "source": 63,
+        "target": 249,
+        "prob": 0.999893307685852,
+        "true_label": 1
+      },
+      {
+        "source": 63,
+        "target": 99,
+        "prob": 0.9998761415481567,
+        "true_label": 1
+      },
+      {
+        "source": 23,
+        "target": 140,
+        "prob": 0.9996986389160156,
+        "true_label": 1
+      },
+      {
+        "source": 119,
+        "target": 131,
+        "prob": 0.9996639490127563,
+        "true_label": 1
+      },
+      {
+        "source": 119,
+        "target": 137,
+        "prob": 0.9995612502098083,
+        "true_label": 1
+      },
+      {
+        "source": 119,
+        "target": 247,
+        "prob": 0.999552309513092,
+        "true_label": 1
+      },
+      {
+        "source": 23,
+        "target": 195,
+        "prob": 0.9995265007019043,
+        "true_label": 1
+      },
+      {
+        "source": 217,
+        "target": 247,
+        "prob": 0.9994664788246155,
+        "true_label": 1
+      },
+      {
+        "source": 195,
+        "target": 225,
+        "prob": 0.9989244341850281,
+        "true_label": 1
+      },
+      {
+        "source": 216,
+        "target": 217,
+        "prob": 0.9986503720283508,
+        "true_label": 1
+      },
+      {
+        "source": 195,
+        "target": 217,
+        "prob": 0.9986314177513123,
+        "true_label": 1
+      },
+      {
+        "source": 99,
+        "target": 225,
+        "prob": 0.9979957342147827,
+        "true_label": 1
+      },
+      {
+        "source": 74,
+        "target": 92,
+        "prob": 0.9978464841842651,
+        "true_label": 1
+      }
+    ],
+    "top_20_negative": [
+      {
+        "source": 72,
+        "target": 244,
+        "prob": 0.1929604411125183,
+        "true_label": 0
+      },
+      {
+        "source": 42,
+        "target": 94,
+        "prob": 0.19459788501262665,
+        "true_label": 0
+      },
+      {
+        "source": 41,
+        "target": 104,
+        "prob": 0.19514964520931244,
+        "true_label": 0
+      },
+      {
+        "source": 79,
+        "target": 228,
+        "prob": 0.1954479068517685,
+        "true_label": 0
+      },
+      {
+        "source": 79,
+        "target": 117,
+        "prob": 0.20462875068187714,
+        "true_label": 0
+      },
+      {
+        "source": 4,
+        "target": 228,
+        "prob": 0.20722021162509918,
+        "true_label": 0
+      },
+      {
+        "source": 41,
+        "target": 75,
+        "prob": 0.21061237156391144,
+        "true_label": 0
+      },
+      {
+        "source": 33,
+        "target": 104,
+        "prob": 0.2111029028892517,
+        "true_label": 0
+      },
+      {
+        "source": 68,
+        "target": 117,
+        "prob": 0.22141681611537933,
+        "true_label": 0
+      },
+      {
+        "source": 41,
+        "target": 234,
+        "prob": 0.22783520817756653,
+        "true_label": 0
+      },
+      {
+        "source": 42,
+        "target": 210,
+        "prob": 0.23857899010181427,
+        "true_label": 1
+      },
+      {
+        "source": 62,
+        "target": 88,
+        "prob": 0.2432352602481842,
+        "true_label": 0
+      },
+      {
+        "source": 54,
+        "target": 239,
+        "prob": 0.24329987168312073,
+        "true_label": 0
+      },
+      {
+        "source": 44,
+        "target": 230,
+        "prob": 0.2550971210002899,
+        "true_label": 0
+      },
+      {
+        "source": 4,
+        "target": 192,
+        "prob": 0.25966691970825195,
+        "true_label": 0
+      },
+      {
+        "source": 39,
+        "target": 117,
+        "prob": 0.2617320716381073,
+        "true_label": 0
+      },
+      {
+        "source": 68,
+        "target": 229,
+        "prob": 0.2620064914226532,
+        "true_label": 0
+      },
+      {
+        "source": 22,
+        "target": 24,
+        "prob": 0.2632816433906555,
+        "true_label": 0
+      },
+      {
+        "source": 94,
+        "target": 97,
+        "prob": 0.2633102238178253,
+        "true_label": 0
+      },
+      {
+        "source": 1,
+        "target": 218,
+        "prob": 0.26737621426582336,
+        "true_label": 0
+      }
+    ]
+  }
+}
