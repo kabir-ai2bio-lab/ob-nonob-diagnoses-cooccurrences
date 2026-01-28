@@ -33,11 +33,12 @@ Once the data is available, the data preprocessing can be done by two scripts. `
 | :--- | :--- |
 | Run the preprocessing script which renders the .pkl file that will be used by GNNs  | ```preprocess_data.py```|
 | Split the graph nodes into training/validation/test splits and save the splits. It creates a kfold split and single split.    | ```split_manager.py```  |
+| Assert that the splits were generated correctly | ```split_asserts.py```|
 
 
 ## Hyperparameter tuning
 
-Hyperparamters will be needed to be set accrodingly. It is suggested to tune them according to respective graph structure and model architecture. We have provided the tuning steps used for selecting best hyperparameters for our models. The tuning follows a nested cross validation structure. 
+Hyperparameters will be needed to be set accordingly. It is suggested to tune them according to respective graph structure and model architecture. We have provided the tuning steps used for selecting best hyperparameters for our models. The tuning follows a nested cross validation structure. 
 
 - Outer loop: 5-fold (for final performance estimation)
 - Inner loop: 3-fold (for hyperparameter selection)
@@ -52,4 +53,20 @@ Hyperparamters will be needed to be set accrodingly. It is suggested to tune the
 
 ## Training
 
+Following 6 models are are provided that were ran consecutively on a gpu cluser. We have provided ```slurm_3_train_all.sh``` which was used to run the training and generate results. It can be modified or improvised according to respective settings. 
+
+| Model | Script |
+| GCN   | ```gcn.py``` |
+| GraphSAGE  | ```graphsage.py``` |
+| GAT   | ```gat.py``` |
+| GCN + GraphSAGE | ```hybrid_gcn_graphsage``` |
+| GCN + GAT  | ```hybrid_gcn_gat.py``` |
+| GAT + GraphSAGE   | ```graphsage_gat_hybrid.py``` |
+
+Training steps
+
+| Step  | Scripts |
+| :--- | :--- |
+| Run the training script for each model, select the appropriate model | ```train_kfold_best.py```|
+| Alternatively, run all of them together  | ```slurm_3_train_all.sh```  |
 
