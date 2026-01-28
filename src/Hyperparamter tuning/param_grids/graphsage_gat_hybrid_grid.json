@@ -1,0 +1,14 @@
+{
+  "sage_hidden_channels": [128],
+  "out_channels": [64],
+  "sage_num_layers": [2],
+  "sage_aggr": ["mean"],
+  "sage_dropout": [0.3, 0.5],
+  "gat_num_layers": [1, 2],
+  "gat_hidden_channels": [64],
+  "gat_num_heads": [4, 8],
+  "gat_dropout": [0.3, 0.5],
+  "lr": [0.005],
+  "weight_decay": [0.0005],
+  "dropout": [0.3]
+}

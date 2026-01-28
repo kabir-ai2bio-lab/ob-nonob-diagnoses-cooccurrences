@@ -1,0 +1,10 @@
+{
+  "hidden_channels": [64, 128],
+  "out_channels": [64],
+  "num_layers": [2],
+  "gat_heads": [4, 8],
+  "fusion_method": ["projected_concat", "gated_sum"],
+  "dropout": [0.2, 0.5],
+  "lr": [0.005, 0.001],
+  "weight_decay": [0.0005]
+}

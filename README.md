@@ -21,14 +21,32 @@ conda remove -p .venvs/ob_nonob_condaenv --all -y
 
 ## Data Download
 
-The EHRSHOT Data used for this research needs access and approval from the Stanford University ShahLab. Requirements include finishing necessary certifications and signing disclosures. 
+The EHRSHOT Data used for this research needs access and approval from the Stanford University ShahLab. Requirements include providing necessary training certifications and signing disclosures. 
 
 - [Apply for Access](https://stanford.redivis.com/datasets/53gc-8rhx41kgt)
 
 ## Data Preprocessing
 
-Once the data is available, the data preprocessing can be done by two scripts. ```project2_gcn.py``` is essential and is called by the ```preprocess_data.py``` script.
+Once the data is available, the data preprocessing can be done by two scripts. ```project2_gcn.py``` is essential and is called by the ```preprocess_data.py``` located in graph handling directory. 
 
 | Step  | Scripts |
 | :--- | :--- |
-| Run the preprocessing dcript which renders the .pkl file that will be used by GNNs  | ```preprocess_data.py```|
+| Run the preprocessing script which renders the .pkl file that will be used by GNNs  | ```preprocess_data.py```|
+| Split the graph nodes into training/validation/test splits and save the splits. It creates a kfold split and single split.    | ```split_manager.py```  |
+
+
+## Hyperparameter tuning
+
+Hyperparamters will be needed to be set accrodingly. It is suggested to tune them according to respective graph structure and model architecture. We have provided the tuning steps used for selecting best hyperparameters for our models. The tuning follows a nested cross validation structure. 
+
+- Outer loop: 5-fold (for final performance estimation)
+- Inner loop: 3-fold (for hyperparameter selection)
+- No outer test leakage during tuning
+- Huperparamters selected by mean inner validation AUROC
+
+| Step  | Scripts |
+| :--- | :--- |
+| Create the grid jsons for each model. Sample grids provided  | ```param_grids`` |
+| Run hyperparameter tuning script. Participating models can be selected in the script    | ```tune_hyperparams_kfold.py``` |
+
+
