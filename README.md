@@ -56,6 +56,7 @@ Hyperparameters will be needed to be set accordingly. It is suggested to tune th
 Following 6 models are are provided that were ran consecutively on a gpu cluser. We have provided ```slurm_3_train_all.sh``` which was used to run the training and generate results. It can be modified or improvised according to respective settings. 
 
 | Model | Script |
+| :--- | :--- |
 | GCN   | ```gcn.py``` |
 | GraphSAGE  | ```graphsage.py``` |
 | GAT   | ```gat.py``` |
