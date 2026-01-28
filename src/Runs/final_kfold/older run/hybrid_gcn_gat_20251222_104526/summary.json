@@ -1,0 +1,89 @@
+{
+  "model_name": "hybrid_gcn_gat",
+  "hyperparams": {
+    "hidden_channels": 64,
+    "out_channels": 64,
+    "num_layers": 2,
+    "gat_heads": 4,
+    "fusion_method": "projected_concat",
+    "dropout": 0.2,
+    "lr": 0.005,
+    "weight_decay": 0.0005
+  },
+  "num_folds": 5,
+  "seed": 42,
+  "fold_results": [
+    {
+      "fold_id": 0,
+      "best_epoch": 167,
+      "best_val_auroc": 0.8197301775147928,
+      "test_metrics": {
+        "auroc": 0.8241275140570935,
+        "auprc": 0.8172046448489685,
+        "accuracy": 0.7068014705882353,
+        "f1": 0.754803996925442,
+        "mcc": 0.44949056638299073
+      }
+    },
+    {
+      "fold_id": 1,
+      "best_epoch": 180,
+      "best_val_auroc": 0.8192852071005916,
+      "test_metrics": {
+        "auroc": 0.8099149816176471,
+        "auprc": 0.7810368314643302,
+        "accuracy": 0.7132352941176471,
+        "f1": 0.7585139318885449,
+        "mcc": 0.46004225909256524
+      }
+    },
+    {
+      "fold_id": 2,
+      "best_epoch": 291,
+      "best_val_auroc": 0.845073205615567,
+      "test_metrics": {
+        "auroc": 0.8206539618584427,
+        "auprc": 0.8135507961775739,
+        "accuracy": 0.7320441988950276,
+        "f1": 0.7643724696356275,
+        "mcc": 0.48261340722194473
+      }
+    },
+    {
+      "fold_id": 3,
+      "best_epoch": 149,
+      "best_val_auroc": 0.807745869246114,
+      "test_metrics": {
+        "auroc": 0.8429840358963402,
+        "auprc": 0.8203195951542239,
+        "accuracy": 0.7237569060773481,
+        "f1": 0.7692307692307693,
+        "mcc": 0.4869231073774821
+      }
+    },
+    {
+      "fold_id": 4,
+      "best_epoch": 276,
+      "best_val_auroc": 0.8460894275283226,
+      "test_metrics": {
+        "auroc": 0.8227804740731697,
+        "auprc": 0.8184605672145747,
+        "accuracy": 0.7081031307550645,
+        "f1": 0.7529228371005456,
+        "mcc": 0.44663682735956706
+      }
+    }
+  ],
+  "aggregated_test_metrics": {
+    "auroc_mean": 0.8240921935005385,
+    "auroc_std": 0.010690541034978242,
+    "auprc_mean": 0.8101144869719343,
+    "auprc_std": 0.014706392473518161,
+    "accuracy_mean": 0.7167882000866646,
+    "accuracy_std": 0.009686038395748187,
+    "f1_mean": 0.7599688009561858,
+    "f1_std": 0.006059930783311647,
+    "mcc_mean": 0.46514123348690994,
+    "mcc_std": 0.016691811477545247
+  }
+}

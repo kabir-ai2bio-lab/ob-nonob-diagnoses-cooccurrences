@@ -1,0 +1,89 @@
+{
+  "model_name": "hybrid_gcn_graphsage",
+  "hyperparams": {
+    "hidden_channels": 128,
+    "out_channels": 64,
+    "num_layers": 2,
+    "sage_aggr": "mean",
+    "fusion_method": "projected_concat",
+    "dropout": 0.5,
+    "lr": 0.005,
+    "weight_decay": 0.0005
+  },
+  "num_folds": 5,
+  "seed": 42,
+  "fold_results": [
+    {
+      "fold_id": 0,
+      "best_epoch": 211,
+      "best_val_auroc": 0.9025609467455622,
+      "test_metrics": {
+        "auroc": 0.902512705449827,
+        "auprc": 0.904718921242357,
+        "accuracy": 0.8189338235294118,
+        "f1": 0.8191000918273645,
+        "mcc": 0.6378687247737073
+      }
+    },
+    {
+      "fold_id": 1,
+      "best_epoch": 223,
+      "best_val_auroc": 0.9113940828402367,
+      "test_metrics": {
+        "auroc": 0.8986909331747406,
+        "auprc": 0.8956224067542372,
+        "accuracy": 0.8244485294117647,
+        "f1": 0.8226555246053854,
+        "mcc": 0.6490297574978169
+      }
+    },
+    {
+      "fold_id": 2,
+      "best_epoch": 210,
+      "best_val_auroc": 0.9270202115247093,
+      "test_metrics": {
+        "auroc": 0.8829265149279802,
+        "auprc": 0.8716160074503644,
+        "accuracy": 0.8001841620626151,
+        "f1": 0.7966260543580131,
+        "mcc": 0.6007361940975484
+      }
+    },
+    {
+      "fold_id": 3,
+      "best_epoch": 180,
+      "best_val_auroc": 0.9022074598215966,
+      "test_metrics": {
+        "auroc": 0.9156619150819572,
+        "auprc": 0.9175598062402092,
+        "accuracy": 0.8360957642725598,
+        "f1": 0.832391713747646,
+        "mcc": 0.6728490694021675
+      }
+    },
+    {
+      "fold_id": 4,
+      "best_epoch": 202,
+      "best_val_auroc": 0.9255241070420415,
+      "test_metrics": {
+        "auroc": 0.885670292251288,
+        "auprc": 0.8820439363788108,
+        "accuracy": 0.8103130755064457,
+        "f1": 0.8123861566484517,
+        "mcc": 0.6207777589790022
+      }
+    }
+  ],
+  "aggregated_test_metrics": {
+    "auroc_mean": 0.8970924721771587,
+    "auroc_std": 0.011898728966826796,
+    "auprc_mean": 0.8943122156131956,
+    "auprc_std": 0.01622402621535539,
+    "accuracy_mean": 0.8179950709565593,
+    "accuracy_std": 0.012218060489864598,
+    "f1_mean": 0.8166319082373722,
+    "f1_std": 0.011908047279899806,
+    "mcc_mean": 0.6362523009500485,
+    "mcc_std": 0.024519604312132317
+  }
+}

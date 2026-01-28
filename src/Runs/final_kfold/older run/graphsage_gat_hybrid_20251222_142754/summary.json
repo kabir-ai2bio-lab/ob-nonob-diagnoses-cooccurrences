@@ -1,0 +1,93 @@
+{
+  "model_name": "graphsage_gat_hybrid",
+  "hyperparams": {
+    "sage_hidden_channels": 128,
+    "out_channels": 64,
+    "sage_num_layers": 2,
+    "sage_aggr": "mean",
+    "sage_dropout": 0.3,
+    "gat_num_layers": 1,
+    "gat_hidden_channels": 64,
+    "gat_num_heads": 4,
+    "gat_dropout": 0.3,
+    "lr": 0.005,
+    "weight_decay": 0.0005,
+    "dropout": 0.3
+  },
+  "num_folds": 5,
+  "seed": 42,
+  "fold_results": [
+    {
+      "fold_id": 0,
+      "best_epoch": 283,
+      "best_val_auroc": 0.8958958579881656,
+      "test_metrics": {
+        "auroc": 0.8957173172577855,
+        "auprc": 0.8913116152208336,
+        "accuracy": 0.8125,
+        "f1": 0.8121546961325967,
+        "mcc": 0.6250042239290651
+      }
+    },
+    {
+      "fold_id": 1,
+      "best_epoch": 97,
+      "best_val_auroc": 0.8990485207100593,
+      "test_metrics": {
+        "auroc": 0.8838093371539792,
+        "auprc": 0.8846208856824755,
+        "accuracy": 0.8014705882352942,
+        "f1": 0.8021978021978022,
+        "mcc": 0.602957476363171
+      }
+    },
+    {
+      "fold_id": 2,
+      "best_epoch": 238,
+      "best_val_auroc": 0.9172908276562912,
+      "test_metrics": {
+        "auroc": 0.8715986827155595,
+        "auprc": 0.8610600702782738,
+        "accuracy": 0.7937384898710865,
+        "f1": 0.8010657193605684,
+        "mcc": 0.589077470309706
+      }
+    },
+    {
+      "fold_id": 3,
+      "best_epoch": 238,
+      "best_val_auroc": 0.8833508976626895,
+      "test_metrics": {
+        "auroc": 0.9096588423226803,
+        "auprc": 0.9055776647954241,
+        "accuracy": 0.8232044198895028,
+        "f1": 0.8273381294964028,
+        "mcc": 0.6471511268458551
+      }
+    },
+    {
+      "fold_id": 4,
+      "best_epoch": 205,
+      "best_val_auroc": 0.9164816139109491,
+      "test_metrics": {
+        "auroc": 0.8830486113230841,
+        "auprc": 0.8746060486517798,
+        "accuracy": 0.8011049723756906,
+        "f1": 0.8101933216168717,
+        "mcc": 0.6049904563082519
+      }
+    }
+  ],
+  "aggregated_test_metrics": {
+    "auroc_mean": 0.8887665581546177,
+    "auroc_std": 0.012936811763164711,
+    "auprc_mean": 0.8834352569257573,
+    "auprc_std": 0.015048806318528079,
+    "accuracy_mean": 0.8064036940743147,
+    "accuracy_std": 0.010317448485207862,
+    "f1_mean": 0.8105899337608484,
+    "f1_std": 0.009425989337817122,
+    "mcc_mean": 0.6138361507512099,
+    "mcc_std": 0.020219780486030833
+  }
+}

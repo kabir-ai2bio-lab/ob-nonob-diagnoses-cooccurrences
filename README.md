@@ -27,7 +27,7 @@ The EHRSHOT Data used for this research needs access and approval from the Stanf
 
 ## Data Preprocessing
 
-Once the data is available, the data preprocessing can be done by two scripts. ```project2_gcn.py``` is essential and is called by the ```preprocess_data.py``` located in graph handling directory. 
+Once the data is available, the data preprocessing can be done by two scripts. ```project2_gcn.py```(depricated) is essential and is called by the ```preprocess_data.py``` located in graph handling directory. 
 
 | Step  | Scripts |
 | :--- | :--- |
@@ -42,11 +42,14 @@ Hyperparamters will be needed to be set accrodingly. It is suggested to tune the
 - Outer loop: 5-fold (for final performance estimation)
 - Inner loop: 3-fold (for hyperparameter selection)
 - No outer test leakage during tuning
-- Huperparamters selected by mean inner validation AUROC
+- Hyperparamters selected by mean inner validation AUROC
 
 | Step  | Scripts |
 | :--- | :--- |
-| Create the grid jsons for each model. Sample grids provided  | ```param_grids`` |
+| Create the grid jsons for each model. Sample grids provided  | See Hyperparameter tuning/param_grids folder for samples |
 | Run hyperparameter tuning script. Participating models can be selected in the script    | ```tune_hyperparams_kfold.py``` |
+
+
+## Training
 
 
