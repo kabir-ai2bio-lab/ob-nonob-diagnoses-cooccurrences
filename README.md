@@ -3,6 +3,11 @@ Contributers - Akash Singh, Samuel Infante, Dr. Seungbae Kim, Dr. Anowarul Kabir
 
 This repository contains the training models and various accessory scripts used for the underlying research. EHR data, the graph file and any connected files to EHR are not shared. 
 
+## Remarks
+- [![DOI](https://zenodo.org/badge/DOI/10.64898/2026.02.06.704385.svg)](https://doi.org/10.64898/2026.02.06.704385)
+- [bioRxiv Paper](https://www.biorxiv.org/content/10.64898/2026.02.06.704385v1)
+- This work has been accepted in the International Conference on Bioinformatics and Computational Biology (BICOB'26).
+
 ## Installation
 ```bash
 # Installation of virtual environment
